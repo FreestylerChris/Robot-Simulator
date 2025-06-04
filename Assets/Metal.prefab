@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5888276774215108054}
   - component: {fileID: 2106302760174083172}
   - component: {fileID: 730119378684701651}
-  - component: {fileID: -1450873623113453680}
+  - component: {fileID: 8014333336559579047}
   m_Layer: 0
   m_Name: Metal
   m_TagString: Box
@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4c3dd7d02eae39b40895c356a52a309d, type: 2}
+  - {fileID: 2100000, guid: 41d494e2e4b9706449bde9b7a5fb09cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -155,9 +155,9 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-1450873623113453680
+--- !u!114 &8014333336559579047
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1856091335170406150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2a10e1f51c4b6499a841976fe96d79, type: 3}
+  m_Script: {fileID: 11500000, guid: 630c0e81740ba434eaadf735bf3ef970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   materialType: 
@@ -284,7 +284,6 @@ GameObject:
   - component: {fileID: 3118819739854866123}
   - component: {fileID: 6909664856826046391}
   - component: {fileID: 7317470118730044137}
-  - component: {fileID: 6239650406018110918}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Canvas
@@ -376,18 +375,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6239650406018110918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6247383627523334253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0332ded79f3179f48ad1c9259a563adb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8116719998710887966
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,7 +409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.07, y: 17.81}
+  m_AnchoredPosition: {x: 0.08, y: 17.32}
   m_SizeDelta: {x: 170.68, y: 43.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &170224416405933095
@@ -455,8 +442,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 484518376399d82419099a515177f968, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 484518376399d82419099a515177f968, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

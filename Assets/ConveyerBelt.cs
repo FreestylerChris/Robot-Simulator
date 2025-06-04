@@ -19,7 +19,7 @@ public class ConveyorBelt : MonoBehaviour
     {
         for (int i = 0; i <= onBelt.Count - 1; i++)
         {
-            onBelt[i].GetComponent<Rigidbody>().velocity = speed * direction;
+            onBelt[i].GetComponent<Rigidbody>().velocity = speed * direction * Time.deltaTime;
         }
     }
 
